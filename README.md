@@ -2,7 +2,7 @@
 
 A responsive, frontend-only homepage for **HarEvent**, an event-planning platform where users can find, compare and contact trusted vendors for weddings and other celebrations. Built as the HarEvent LLP Frontend Developer Intern technical task.
 
-- **Live demo: https://github.com/AbserYousuf/HarEvent
+- **Live demo:https://harevent09.netlify.app/
 - **Repository:https://github.com/AbserYousuf/HarEvent
 
 ## Screenshots
