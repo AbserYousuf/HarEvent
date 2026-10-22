@@ -9,7 +9,7 @@ A responsive, frontend-only homepage for **HarEvent**, an event-planning platfor
 
 | Desktop | Mobile |
 | --- | --- |
-| ![Desktop](./screenshots/MackbookPro.png) | ![Mobile](./screenshots/Mobile.png) | ![Ipad](./screenshots/ipad.png)
+| ![Desktop](./screenshots/MacbookPro.png) | ![Mobile](./screenshots/Mobile.png) | ![Ipad](./screenshots/ipad.png)
 
 ## Features
 
