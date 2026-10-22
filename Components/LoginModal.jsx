@@ -6,7 +6,7 @@ export default function LoginModal({ type, onClose }) {
 
   const label = type === "vendor" ? "Vendor" : "Customer";
 
-  // Close on Escape + lock background scroll while open
+  
   useEffect(() => {
     const onKey = (e) => e.key === "Escape" && onClose();
     document.addEventListener("keydown", onKey);
@@ -17,7 +17,7 @@ export default function LoginModal({ type, onClose }) {
     };
   }, [onClose]);
 
-  // After a fake login, close automatically
+  
   useEffect(() => {
     if (!success) return;
     const t = setTimeout(onClose, 1500);
@@ -28,7 +28,7 @@ export default function LoginModal({ type, onClose }) {
     setForm({ ...form, [e.target.name]: e.target.value });
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // no real authentication
+    e.preventDefault();
     setSuccess(true);
   };
 
@@ -45,7 +45,7 @@ export default function LoginModal({ type, onClose }) {
     >
       <div
         className="relative w-full max-w-md rounded-2xl bg-white p-6 shadow-2xl md:p-8"
-        onClick={(e) => e.stopPropagation()} // clicks inside don't close it
+        onClick={(e) => e.stopPropagation()}
       >
         <button
           type="button"
@@ -58,7 +58,7 @@ export default function LoginModal({ type, onClose }) {
 
         {success ? (
           <div className="py-8 text-center">
-            <p className="text-4xl">✅</p>
+           
             <h2 className="mt-3 text-2xl font-bold text-gray-900">
               Logged in as {label}
             </h2>
